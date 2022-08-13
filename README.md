@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-- 🧑‍🎓 I’m currently learning the research on human mobility...
+- 🧑 I’m currently learning the research on human mobility...
+- 🎓 I’m currently a MSc candidate at the School of Geography and Planning, Sun Yat-Sen University.
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
