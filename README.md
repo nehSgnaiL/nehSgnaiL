@@ -2,7 +2,7 @@
 
 - 🧑 I’m currently learning about the research on human mobility...
 
-- 🎓 I’m currently a PhD student at Mobility Science Lab, The Hong Kong Polytechnic University.
+- 🎓 I’m currently a PhD student at [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
 - 📌 I’m thrilled to share my curated list of enjoyable research ingredients:
 
