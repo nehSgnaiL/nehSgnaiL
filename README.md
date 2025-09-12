@@ -1,12 +1,19 @@
 ### Hi there 👋
 
-- 🧑 I’m currently learning the research on human mobility...
-- 🎓 I’m currently a MSc candidate at the School of Geography and Planning, Sun Yat-Sen University.
-- 📂 I’m thrilled to share my curated list of enjoyable research ingredients:
-  - Awesome scientific figure [https://github.com/nehSgnaiL/awesome-scientific-figure]
-  - Awesome academic phrase [https://github.com/nehSgnaiL/awesome-academic-phrase]
-- 💻 Check out the promo for my research paper: 
-  - Improving Location Prediction with Inferred Activity [https://github.com/nehSgnaiL/LPA]
+- 🧑 I’m currently learning about the research on human mobility...
+
+- 🎓 I’m currently a PhD student at Mobility Science Lab, The Hong Kong Polytechnic University.
+
+- 📌 I’m thrilled to share my curated list of enjoyable research ingredients:
+
+  - [Awesome scientific figure](https://github.com/nehSgnaiL/awesome-scientific-figure)
+
+  - [Awesome academic phrase](https://github.com/nehSgnaiL/awesome-academic-phrase)
+
+- 😆 Check out the promo repo for my research paper:
+
+  - [Improving Location Prediction with Inferred Activity](https://github.com/nehSgnaiL/LPA)
+
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
