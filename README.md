@@ -10,7 +10,7 @@
 
   - [Awesome academic phrase](https://github.com/nehSgnaiL/awesome-academic-phrase)
 
-- 😆 Check out the promo repo for my research paper:
+- 😆 Check out [my site](https://nehsgnail.github.io/) & the promo repo for my research paper:
 
   - [Improving Location Prediction with Inferred Activity](https://github.com/nehSgnaiL/LPA)
 
