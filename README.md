@@ -1,18 +1,19 @@
 ### Hi there 👋
 
-- 🧑 I’m currently learning about the research on human mobility...
+- 🧑 I’m exploring research on human mobility — have fun browsing [my site](https://nehsgnail.github.io/)!
 
-- 🎓 I’m currently a PhD student at [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
+- 🎓 I’m a PhD student at the [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
-- 📌 I’m thrilled to share my curated list of enjoyable research ingredients:
+- 📌 I’m excited to share my curated list of enjoyable research ingredients:
 
   - [Awesome scientific figure](https://github.com/nehSgnaiL/awesome-scientific-figure)
 
   - [Awesome academic phrase](https://github.com/nehSgnaiL/awesome-academic-phrase)
 
-- 😆 Check out [my site](https://nehsgnail.github.io/) & the promo repo for my research paper:
+- 😆 Check out the promo repositories for my research papers:
 
   - [Improving Location Prediction with Inferred Activity](https://github.com/nehSgnaiL/LPA)
+  - [Predicting Demand in a Coupled Continuous & Network Space](https://github.com/nehSgnaiL/GeoTopo-Net)
 
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
