@@ -1,10 +1,10 @@
 ### Hi there 👋
 
-- 🧑 I’m exploring research on human mobility — have fun browsing [my site](https://nehsgnail.github.io/)!
+- I’m exploring research on human mobility — have fun browsing [my site](https://nehsgnail.github.io/)!
 
-- 🎓 I’m a PhD student at [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
+- I’m a PhD student at [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
-- 📌 I’m excited to share my curated list of enjoyable research ingredients:
+- I’m excited to share my curated list of enjoyable research ingredients:
 
   - [Awesome scientific figure](https://github.com/nehSgnaiL/awesome-scientific-figure)
 
