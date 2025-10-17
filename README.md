@@ -24,12 +24,13 @@ _generated with [Platane/snk](https://github.com/Platane/snk)_
 
 If your GitHub profile is private and you want to generate the snake animation from your contributions:
 
-1. Create a [GitHub Personal Access Token (PAT)](https://github.com/settings/tokens/new) with the `read:user` scope
+1. Create a [GitHub Personal Access Token (PAT)](https://github.com/settings/tokens/new) with the `read:user` scope (or `repo` scope if you want to include contributions from private repositories)
 2. Add the token as a repository secret named `GH_PAT`:
    - Go to your repository Settings → Secrets and variables → Actions
    - Click "New repository secret"
    - Name: `GH_PAT`
    - Value: Your PAT token
+   - ⚠️ **Security Note**: Keep your PAT confidential and never commit it to your repository or share it publicly
 3. The workflow will automatically use this token to access your private contribution data
 
 If your profile is public, no additional setup is required - the workflow uses the default `GITHUB_TOKEN`.
