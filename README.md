@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=007AFF&vCenter=true&width=435&height=30&lines=Hey!+I%E2%80%99m+Shen+Liang.;Glad+you%E2%80%99re+here!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=007AFF&vCenter=true&width=435&height=30&lines=Hey!+I%E2%80%99m+Shen+Liang.;Thanks+for+stopping+by!)](https://git.io/typing-svg)
 
 - I’m exploring research on human mobility — have fun browsing [Shen's site](https://nehsgnail.github.io/)!
 
