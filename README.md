@@ -14,7 +14,7 @@
 
 - 😆 Check out the promotions for my research papers:
 
-  - [Improving Location Prediction with Inferred Activity](https://nehsgnail.github.io/research/2025-IJDE-LPA/)
+  - [Improving Next Location Prediction with Inferred Activity Semantics](https://nehsgnail.github.io/research/2025-IJDE-LPA/)
   - [Predicting Shared Bike Demand in a Coupled Continuous & Network Space](https://nehsgnail.github.io/research/2026-TBS-GeoTopoNet/)
 
 
