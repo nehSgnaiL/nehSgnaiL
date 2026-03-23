@@ -15,7 +15,7 @@
 - 😆 Check out the promotions for my research papers:
 
   - [Improving Location Prediction with Inferred Activity](https://nehsgnail.github.io/research/2025-IJDE-LPA/)
-  - [Predicting Demand in a Coupled Continuous & Network Space](https://nehsgnail.github.io/research/2026-TBS-GeoTopoNet/)
+  - [Predicting Shared Bike Demand in a Coupled Continuous & Network Space](https://nehsgnail.github.io/research/2026-TBS-GeoTopoNet/)
 
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
