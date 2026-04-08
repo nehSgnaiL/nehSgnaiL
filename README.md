@@ -4,7 +4,7 @@
 
 - I’m exploring research on human mobility — have fun browsing [Shen's site](https://nehsgnail.github.io/)!
 
-- I’m a PhD student at [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
+- I’m a PhD student @ [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
 - I’m excited to share my curated list of enjoyable research ingredients:
 
