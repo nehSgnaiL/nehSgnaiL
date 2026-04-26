@@ -36,7 +36,7 @@
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-<sub>_generated with [github-readme-stats-fast](https://github.com/Pranesh-2005/github-readme-stats-fast) & [Platane/snk](https://github.com/Platane/snk)_</sub>
+<sub>_generated with [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg), [github-readme-stats-fast](https://github.com/Pranesh-2005/github-readme-stats-fast) & [Platane/snk](https://github.com/Platane/snk)_</sub>
 
 <!--
 **nehSgnaiL/nehSgnaiL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
