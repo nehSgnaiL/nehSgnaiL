@@ -17,6 +17,8 @@
   - [Improving Next Location Prediction with Inferred Activity Semantics](https://nehsgnail.github.io/research/2025-IJDE-LPA/)
   - [Predicting Shared Bike Demand in a Coupled Continuous & Network Space](https://nehsgnail.github.io/research/2026-TBS-GeoTopoNet/)
 
+<br>
+
 - Pinned
 
 [![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
