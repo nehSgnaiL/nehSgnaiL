@@ -29,6 +29,8 @@
 [![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase#gh-light-mode-only)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
 [![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA&theme=github_dark&border_color=3d444d#gh-light-mode-only)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
 
+<br>
+
 - Contributions in the last year
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
