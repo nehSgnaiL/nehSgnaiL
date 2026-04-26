@@ -17,8 +17,18 @@
   - [Improving Next Location Prediction with Inferred Activity Semantics](https://nehsgnail.github.io/research/2025-IJDE-LPA/)
   - [Predicting Shared Bike Demand in a Coupled Continuous & Network Space](https://nehsgnail.github.io/research/2026-TBS-GeoTopoNet/)
 
+- Pinned
 
-![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
+
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure#gh-light-mode-only)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase#gh-light-mode-only)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
+
+- Contributions in the last year
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 _generated with [Platane/snk](https://github.com/Platane/snk)_
 
