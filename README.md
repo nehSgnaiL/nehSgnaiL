@@ -21,13 +21,13 @@
 
 - Pinned
 
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA&theme=github_dark&border_color=3d444d#gh-dark-mode-only)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
 
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure#gh-light-mode-only)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase#gh-light-mode-only)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA&theme=github_dark&border_color=3d444d#gh-light-mode-only)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
+[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
 
 <br>
 
