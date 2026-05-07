@@ -6,11 +6,13 @@
 
 - I’m a PhD student @ [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
-- I’m excited to share my curated list of enjoyable research ingredients:
+- I’m excited to share my curated list of enjoyable research ingredients & goodies:
 
   - [Awesome scientific figure](https://github.com/nehSgnaiL/awesome-scientific-figure)
 
   - [Awesome academic phrase](https://github.com/nehSgnaiL/awesome-academic-phrase)
+ 
+  - [Paper daily feed](https://github.com/nehSgnaiL/paper-daily-feed)
 
 - 😆 Check out the promotions for my research papers:
 
