@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&pause=1000&color=007AFF&vCenter=true&width=435&height=30&lines=Hey!+I%E2%80%99m+Shen+Liang.;Thanks+for+stopping+by!)](https://git.io/typing-svg)
 
-- I’m exploring research on human mobility — have fun browsing [Shen's site](https://nehsgnail.github.io/)!
+- I’m exploring research on human mobility — have fun browsing [Shen's site](https://shenliang-x.github.io/)!
 
 - I’m a PhD student @ [Mobility Science Lab](https://mobility-science-lab.com), The Hong Kong Polytechnic University.
 
