@@ -35,7 +35,7 @@
 
 <br>
 
-- Contributions in the last year
+- Activities in the last year
 
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
