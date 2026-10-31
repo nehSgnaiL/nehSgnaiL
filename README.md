@@ -24,33 +24,11 @@
 - Pinned
 
 <p>
-  <a href="https://github.com/nehSgnaiL/awesome-scientific-figure">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-scientific-figure&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
-      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-scientific-figure&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="awesome-scientific-figure repository">
-    </picture>
-  </a>
-  <a href="https://github.com/nehSgnaiL/awesome-academic-phrase">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-academic-phrase&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
-      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-academic-phrase&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="awesome-academic-phrase repository">
-    </picture>
-  </a>
+<a href="https://github.com/nehSgnaiL/awesome-scientific-figure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/awesome-scientific-figure-dark.svg"><img width="50%" align="top" src="assets/pins/awesome-scientific-figure-light.svg" alt="awesome-scientific-figure repository"></picture></a><a href="https://github.com/nehSgnaiL/awesome-academic-phrase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/awesome-academic-phrase-dark.svg"><img width="50%" align="top" src="assets/pins/awesome-academic-phrase-light.svg" alt="awesome-academic-phrase repository"></picture></a>
 </p>
 
 <p>
-  <a href="https://github.com/nehSgnaiL/paper-daily-feed">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fpaper-daily-feed&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
-      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fpaper-daily-feed&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="paper-daily-feed repository">
-    </picture>
-  </a>
-  <a href="https://github.com/nehSgnaiL/LPA">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2FLPA&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
-      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2FLPA&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="LPA repository">
-    </picture>
-  </a>
+<a href="https://github.com/nehSgnaiL/paper-daily-feed"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/paper-daily-feed-dark.svg"><img width="50%" align="top" src="assets/pins/paper-daily-feed-light.svg" alt="paper-daily-feed repository"></picture></a><a href="https://github.com/nehSgnaiL/LPA"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/LPA-dark.svg"><img width="50%" align="top" src="assets/pins/LPA-light.svg" alt="LPA repository"></picture></a>
 </p>
 
 <br>
