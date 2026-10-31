@@ -23,15 +23,15 @@
 
 - Pinned
 
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=paper-daily-feed&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA&theme=github_dark&border_color=3d444d)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=dark_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=dark_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
 
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-scientific-figure)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=awesome-academic-phrase)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=paper-daily-feed)](https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only)
-[![Repo Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=nehSgnaiL&repo=LPA)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=light_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=light_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
 
 <br>
 
@@ -40,7 +40,8 @@
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 ![github contribution grid snake animation](https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
-<sub>_generated with [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg), [github-readme-stats-fast](https://github.com/Pranesh-2005/github-readme-stats-fast) & [Platane/snk](https://github.com/Platane/snk)_</sub>
+<sub>_generated with [readme-typing-svg](https://github.com/DenverCoder1/readme-typing-svg), [github-stats-extended
+](https://github.com/stats-organization/github-stats-extended) & [Platane/snk](https://github.com/Platane/snk)_</sub>
 
 <!--
 **nehSgnaiL/nehSgnaiL** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
