@@ -62,7 +62,10 @@ def fetch(repo):
             parent = next(node for node in root.iter() if by_id(test_id) in list(node))
             group = next(node for node in root.iter() if parent in list(node))
             path = group.find(".//svg:path", NS)
-        icons[name] = path.attrib["d"]
+        icons[name] = {
+            "d": path.attrib["d"],
+            "fill-rule": path.attrib.get("fill-rule", "nonzero"),
+        }
     return {
         "description": " ".join(lines),
         "language": language.text if language is not None else None,
@@ -102,7 +105,12 @@ def render(repo, data, theme, height):
 ''']
 
     def icon(name, x, y):
-        parts.append(f'  <path transform="translate({x} {y})" fill="{muted}" d="{data["icons"][name]}"/>\n')
+        shape = data["icons"][name]
+        parts.append(
+            f'  <path transform="translate({x} {y})" fill="{muted}" '
+            f'fill-rule="{escape(shape["fill-rule"], quote=True)}" '
+            f'd="{escape(shape["d"], quote=True)}"/>\n'
+        )
 
     icon("repo", 25, 19)
     parts.append(f'  <text class="name" x="45" y="31">{escape(repo)}</text>\n')
