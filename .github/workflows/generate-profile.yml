@@ -19,6 +19,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Validate pin inputs
+        run: python3 -m unittest discover -s .github/scripts -p 'test_*.py'
       - name: Generate repository pins
         run: python3 .github/scripts/generate-pins.py
       - name: Generate contribution snake

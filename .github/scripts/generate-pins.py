@@ -1,21 +1,19 @@
 """Render public repo data from GitHub Stats Extended in GitHub's pin layout."""
 
 from html import escape
+from html.parser import HTMLParser
+from dataclasses import dataclass
 from pathlib import Path
+import re
 import textwrap
-from urllib.parse import urlencode
+from urllib.parse import unquote, urlencode, urlsplit
 from urllib.request import urlopen
 import xml.etree.ElementTree as ET
 
 
-REPOS = (
-    "awesome-scientific-figure",
-    "awesome-academic-phrase",
-    "paper-daily-feed",
-    "LPA",
-)
+ROOT = Path(__file__).resolve().parents[2]
 NS = {"svg": "http://www.w3.org/2000/svg"}
-OUTPUT = Path(__file__).resolve().parents[2] / "dist" / "pins"
+OUTPUT = ROOT / "dist" / "pins"
 PALETTES = {
     "light": ("#0969da", "#59636e", "#d1d9e0"),
     "dark": ("#4493f8", "#9198a1", "#3d444d"),
@@ -23,6 +21,58 @@ PALETTES = {
 FONT_STACK = ('"Mona Sans VF", -apple-system, system-ui, "Segoe UI", '
               '"Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, '
               '"Apple Color Emoji", "Segoe UI Emoji"')
+
+
+@dataclass(frozen=True)
+class Pin:
+    owner: str
+    repo: str
+    stem: str
+
+
+class PinLinks(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.href = None
+        self.pins = {}
+        self.stems = {}
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "a":
+            self.href = attrs.get("href")
+        if tag != "img" or not self.href:
+            return
+        image = Path(unquote(urlsplit(attrs.get("src", "")).path))
+        if image.parent.name != "pins":
+            return
+        filename = re.fullmatch(r"([\w.-]+)-(light|dark)\.svg", image.name, re.ASCII)
+        target = urlsplit(self.href)
+        repository = re.fullmatch(r"/([\w.-]+)/([\w.-]+)/?", unquote(target.path), re.ASCII)
+        if not filename or target.scheme != "https" or target.hostname != "github.com" or not repository:
+            raise ValueError(f"Invalid repository pin link: {self.href}")
+        owner, repo = repository.groups()
+        stem, theme = filename.groups()
+        if target.fragment and target.fragment != f"gh-{theme}-mode-only":
+            raise ValueError(f"Pin theme does not match its image: {self.href}")
+        key = (owner.lower(), repo.lower())
+        pin = Pin(owner, repo, stem)
+        if key in self.pins and self.pins[key].stem != stem:
+            raise ValueError(f"Light/dark pin filenames must share a stem: {owner}/{repo}")
+        if stem in self.stems and self.stems[stem] != key:
+            raise ValueError(f"Different repositories must use different pin filenames: {stem}")
+        self.pins.setdefault(key, pin)
+        self.stems[stem] = key
+
+    def handle_endtag(self, tag):
+        if tag == "a":
+            self.href = None
+
+
+def read_pins(readme):
+    parser = PinLinks()
+    parser.feed(readme)
+    return list(parser.pins.values())
 
 
 def text_width(text, size=12):
@@ -36,15 +86,15 @@ def text_width(text, size=12):
     return sum(widths.get(char, 556) for char in text) * size / 1000
 
 
-def fetch(repo):
-    query = urlencode({"username": "nehSgnaiL", "repo": repo, "card_width": 400})
+def fetch(owner, repo):
+    query = urlencode({"username": owner, "repo": repo, "card_width": 400})
     with urlopen(f"https://github-stats-extended.vercel.app/api/pin?{query}", timeout=60) as response:
         root = ET.fromstring(response.read())
 
     def by_id(name):
         return root.find(f".//*[@data-testid='{name}']")
 
-    if by_id("header") is None or by_id("header").text != repo:
+    if by_id("header") is None or (by_id("header").text or "").casefold() != repo.casefold():
         raise ValueError(f"Stats API did not return the expected repository: {repo}")
     description = root.find(".//svg:text[@class='description']", NS)
     if description is None:
@@ -132,15 +182,19 @@ def render(repo, data, theme, height):
 
 
 def main():
-    data = {repo: fetch(repo) for repo in REPOS}
+    pins = read_pins((ROOT / "README.md").read_text())
+    data = {pin: fetch(pin.owner, pin.repo) for pin in pins}
     rendered = {}
-    for start in (0, 2):
-        row = REPOS[start:start + 2]
-        height = 89 + 18 * max(len(wrap(data[repo]["description"])) for repo in row)
-        for repo in row:
+    for start in range(0, len(pins), 2):
+        row = pins[start:start + 2]
+        height = 89 + 18 * max(len(wrap(data[pin]["description"])) for pin in row)
+        for pin in row:
             for theme in PALETTES:
-                rendered[f"{repo}-{theme}.svg"] = render(repo, data[repo], theme, height)
+                rendered[f"{pin.stem}-{theme}.svg"] = render(pin.repo, data[pin], theme, height)
     OUTPUT.mkdir(parents=True, exist_ok=True)
+    for old in OUTPUT.glob("*.svg"):
+        if old.name not in rendered:
+            old.unlink()
     for filename, svg in rendered.items():
         ET.fromstring(svg)
         (OUTPUT / filename).write_text(svg)
