@@ -74,7 +74,7 @@ def wrap(text, width=358):
     lines, current = [], ""
     for word in text.split():
         candidate = f"{current} {word}".strip()
-        if current and text_width(candidate) > width:
+        if current and text_width(candidate) * 1.14 > width:
             lines.append(current)
             current = word
         else:
@@ -103,7 +103,7 @@ def render(repo, data, theme, height):
 
     icon("repo", 25, 19)
     parts.append(f'  <text class="name" x="45" y="31">{escape(repo)}</text>\n')
-    badge_x = min(342, 45 + text_width(repo, 14) * 1.06 + 8)
+    badge_x = min(342, 45 + text_width(repo, 14) * 1.16 + 8)
     parts.append(f'  <rect x="{badge_x:.1f}" y="18.5" width="48" height="19" rx="9.5" fill="none" stroke="{border}"/>\n')
     parts.append(f'  <text x="{badge_x + 24:.1f}" y="32" text-anchor="middle" font-weight="500">Public</text>\n')
     for i, line in enumerate(wrap(data["description"])):
