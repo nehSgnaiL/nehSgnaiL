@@ -15,7 +15,7 @@ REPOS = (
     "LPA",
 )
 NS = {"svg": "http://www.w3.org/2000/svg"}
-OUTPUT = Path(__file__).resolve().parents[1] / "assets" / "pins"
+OUTPUT = Path(__file__).resolve().parents[2] / "dist" / "pins"
 PALETTES = {
     "light": ("#0969da", "#59636e", "#d1d9e0"),
     "dark": ("#4493f8", "#9198a1", "#3d444d"),
