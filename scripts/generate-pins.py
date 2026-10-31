@@ -20,6 +20,9 @@ PALETTES = {
     "light": ("#0969da", "#59636e", "#d1d9e0"),
     "dark": ("#4493f8", "#9198a1", "#3d444d"),
 }
+FONT_STACK = ('"Mona Sans VF", -apple-system, system-ui, "Segoe UI", '
+              '"Noto Sans Backtick Fix", "Noto Sans", Helvetica, Arial, sans-serif, '
+              '"Apple Color Emoji", "Segoe UI Emoji"')
 
 
 def text_width(text, size=12):
@@ -92,8 +95,9 @@ def render(repo, data, theme, height):
   <title id="title">{escape(repo)}</title>
   <desc id="desc">{escape(data['description'])}</desc>
   <style>
-    text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; font-size: 12px; fill: {muted}; }}
+    text {{ font-family: {FONT_STACK}; font-size: 12px; font-weight: 400; fill: {muted}; }}
     .name {{ font-size: 14px; font-weight: 600; fill: {title}; }}
+    .badge {{ font-size: 11.9px; font-weight: 500; }}
   </style>
   <rect x="8.5" y="0.5" width="391" height="{height - 1}" rx="6" fill="none" stroke="{border}"/>
 ''']
@@ -105,7 +109,7 @@ def render(repo, data, theme, height):
     parts.append(f'  <text class="name" x="45" y="31">{escape(repo)}</text>\n')
     badge_x = min(342, 45 + text_width(repo, 14) * 1.16 + 8)
     parts.append(f'  <rect x="{badge_x:.1f}" y="18.5" width="48" height="19" rx="9.5" fill="none" stroke="{border}"/>\n')
-    parts.append(f'  <text x="{badge_x + 24:.1f}" y="32" text-anchor="middle" font-weight="500">Public</text>\n')
+    parts.append(f'  <text class="badge" x="{badge_x + 24:.1f}" y="32" text-anchor="middle">Public</text>\n')
     for i, line in enumerate(wrap(data["description"])):
         parts.append(f'  <text x="25" y="{58 + i * 18}">{escape(line)}</text>\n')
     x, y = 25, height - 17

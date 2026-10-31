@@ -24,11 +24,11 @@
 - Pinned
 
 <p>
-<a href="https://github.com/nehSgnaiL/awesome-scientific-figure"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/awesome-scientific-figure-dark.svg"><img width="50%" align="top" src="assets/pins/awesome-scientific-figure-light.svg" alt="awesome-scientific-figure repository"></picture></a><a href="https://github.com/nehSgnaiL/awesome-academic-phrase"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/awesome-academic-phrase-dark.svg"><img width="50%" align="top" src="assets/pins/awesome-academic-phrase-light.svg" alt="awesome-academic-phrase repository"></picture></a>
+<a href="https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only"><img width="50%" align="top" src="assets/pins/awesome-scientific-figure-light.svg" alt="awesome-scientific-figure repository"></a><a href="https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only"><img width="50%" align="top" src="assets/pins/awesome-scientific-figure-dark.svg" alt="awesome-scientific-figure repository"></a><a href="https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only"><img width="50%" align="top" src="assets/pins/awesome-academic-phrase-light.svg" alt="awesome-academic-phrase repository"></a><a href="https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only"><img width="50%" align="top" src="assets/pins/awesome-academic-phrase-dark.svg" alt="awesome-academic-phrase repository"></a>
 </p>
 
 <p>
-<a href="https://github.com/nehSgnaiL/paper-daily-feed"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/paper-daily-feed-dark.svg"><img width="50%" align="top" src="assets/pins/paper-daily-feed-light.svg" alt="paper-daily-feed repository"></picture></a><a href="https://github.com/nehSgnaiL/LPA"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/pins/LPA-dark.svg"><img width="50%" align="top" src="assets/pins/LPA-light.svg" alt="LPA repository"></picture></a>
+<a href="https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only"><img width="50%" align="top" src="assets/pins/paper-daily-feed-light.svg" alt="paper-daily-feed repository"></a><a href="https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only"><img width="50%" align="top" src="assets/pins/paper-daily-feed-dark.svg" alt="paper-daily-feed repository"></a><a href="https://github.com/nehSgnaiL/LPA#gh-light-mode-only"><img width="50%" align="top" src="assets/pins/LPA-light.svg" alt="LPA repository"></a><a href="https://github.com/nehSgnaiL/LPA#gh-dark-mode-only"><img width="50%" align="top" src="assets/pins/LPA-dark.svg" alt="LPA repository"></a>
 </p>
 
 <br>
