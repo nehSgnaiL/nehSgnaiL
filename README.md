@@ -23,15 +23,35 @@
 
 - Pinned
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=dark_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=dark_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
+<p>
+  <a href="https://github.com/nehSgnaiL/awesome-scientific-figure">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-scientific-figure&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
+      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-scientific-figure&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="awesome-scientific-figure repository">
+    </picture>
+  </a>
+  <a href="https://github.com/nehSgnaiL/awesome-academic-phrase">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-academic-phrase&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
+      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fawesome-academic-phrase&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="awesome-academic-phrase repository">
+    </picture>
+  </a>
+</p>
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=light_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=light_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
+<p>
+  <a href="https://github.com/nehSgnaiL/paper-daily-feed">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fpaper-daily-feed&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
+      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2Fpaper-daily-feed&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="paper-daily-feed repository">
+    </picture>
+  </a>
+  <a href="https://github.com/nehSgnaiL/LPA">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2FLPA&amp;theme=dark_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2">
+      <img width="49%" align="top" src="https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&amp;repo=nehSgnaiL%2FLPA&amp;theme=light_github_repocard&amp;bg_color=00000000&amp;border_radius=6&amp;description_lines_count=2" alt="LPA repository">
+    </picture>
+  </a>
+</p>
 
 <br>
 
