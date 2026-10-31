@@ -1,0 +1,50 @@
+name: Generate profile assets
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+    - cron: "0 0 * * 0,2-6"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+concurrency:
+  group: profile-assets-output
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate repository pins
+        if: github.event_name != 'schedule' || github.event.schedule == '0 0 * * 1'
+        run: python3 .github/scripts/generate-pins.py
+      - name: Preserve repository pins between weekly refreshes
+        if: github.event_name == 'schedule' && github.event.schedule != '0 0 * * 1'
+        shell: bash
+        run: |
+          mkdir -p dist
+          git fetch --depth=1 origin output
+          git archive FETCH_HEAD pins | tar -x -C dist
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          github_token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+      - name: Publish generated assets
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: "chore(profile): refresh generated assets"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

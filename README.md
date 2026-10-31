@@ -23,15 +23,51 @@
 
 - Pinned
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=dark_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=dark_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=dark_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-dark-mode-only)
+<p>
+  <a href="https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/awesome-scientific-figure-light.svg"
+    alt="awesome-scientific-figure repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/awesome-scientific-figure#gh-dark-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/awesome-scientific-figure-dark.svg"
+    alt="awesome-scientific-figure repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/awesome-academic-phrase-light.svg"
+    alt="awesome-academic-phrase repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/awesome-academic-phrase#gh-dark-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/awesome-academic-phrase-dark.svg"
+    alt="awesome-academic-phrase repository"
+  ></a>
+</p>
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-scientific-figure&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-scientific-figure#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fawesome-academic-phrase&theme=light_github_repocard)](https://github.com/nehSgnaiL/awesome-academic-phrase#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2Fpaper-daily-feed&theme=light_github_repocard)](https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only)
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/pin?username=nehSgnaiL&repo=nehSgnaiL%2FLPA&theme=light_github_repocard)](https://github.com/nehSgnaiL/LPA#gh-light-mode-only)
+<p>
+  <a href="https://github.com/nehSgnaiL/paper-daily-feed#gh-light-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/paper-daily-feed-light.svg"
+    alt="paper-daily-feed repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/paper-daily-feed#gh-dark-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/paper-daily-feed-dark.svg"
+    alt="paper-daily-feed repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/LPA#gh-light-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/LPA-light.svg"
+    alt="LPA repository"
+  ></a>
+  <a href="https://github.com/nehSgnaiL/LPA#gh-dark-mode-only"><img
+    width="49%" align="top"
+    src="https://raw.githubusercontent.com/nehSgnaiL/nehSgnaiL/output/pins/LPA-dark.svg"
+    alt="LPA repository"
+  ></a>
+</p>
 
 <br>
 
