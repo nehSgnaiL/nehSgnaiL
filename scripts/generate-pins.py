@@ -97,7 +97,6 @@ def render(repo, data, theme, height):
   <style>
     text {{ font-family: {FONT_STACK}; font-size: 12px; font-weight: 400; fill: {muted}; }}
     .name {{ font-size: 14px; font-weight: 600; fill: {title}; }}
-    .badge {{ font-size: 11.9px; font-weight: 500; }}
   </style>
   <rect x="8.5" y="0.5" width="391" height="{height - 1}" rx="6" fill="none" stroke="{border}"/>
 ''']
@@ -107,9 +106,6 @@ def render(repo, data, theme, height):
 
     icon("repo", 25, 19)
     parts.append(f'  <text class="name" x="45" y="31">{escape(repo)}</text>\n')
-    badge_x = min(342, 45 + text_width(repo, 14) * 1.16 + 8)
-    parts.append(f'  <rect x="{badge_x:.1f}" y="18.5" width="48" height="19" rx="9.5" fill="none" stroke="{border}"/>\n')
-    parts.append(f'  <text class="badge" x="{badge_x + 24:.1f}" y="32" text-anchor="middle">Public</text>\n')
     for i, line in enumerate(wrap(data["description"])):
         parts.append(f'  <text x="25" y="{58 + i * 18}">{escape(line)}</text>\n')
     x, y = 25, height - 17
