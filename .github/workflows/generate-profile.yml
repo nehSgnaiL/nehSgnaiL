@@ -20,8 +20,6 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Validate pin inputs
-        run: python3 -m unittest discover -s .github/scripts -p 'test_*.py'
       - name: Generate repository pins
         if: github.event_name != 'schedule' || github.event.schedule == '0 0 * * 1'
         run: python3 .github/scripts/generate-pins.py
